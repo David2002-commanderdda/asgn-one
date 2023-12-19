@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/1st assignment/Assets/myfav.ico">
+    <title>Signup</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <p style="text-align: center;">
+                <a href="index.html">About</a>
+                <a href="sign.html">Apply</a>
+            </p>
+        </nav>
+    </header>
+    <main>
+        <header>
+            <h1>Application Form</h1>
+        </header>
+        <form action="/subscribe" method="post">
+            <fieldset >
+              <legend style="margin-left: auto;margin-right: auto;">Fill in your details</legend>
+              <table style="margin-left: auto;margin-right: auto;">
+                <tr>
+                    <td>
+                        <div>
+                            <label for="first_name">First name</label>
+                              <br>
+                              <input type="text" name="first_name" id="first_name" placeholder="First Name" required>
+                        </div>    
+                    </td>
+                    <td>
+                        <div>
+                              <label for="last_name">Last name</label>
+                              <br>
+                              <input type="text" name="last_name" id="last_name" placeholder="Last Name" required>
+                        </div>
+                    </td>
+      
+                </tr>
+                <tr>
+                    <td>
+                        <div>
+                            <label for="Gender">Select Gender</label>
+                            <br>
+                            <select name="Gender" id="Gender" required>
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+
+                    </td>
+                    <td>
+                          
+                        <div>
+                            <label for="DOB">Date Of Birth</label>
+                            <br>
+                            <input type="date" name="DOB" id="DOB" required>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div>
+                            <label for="email">Email Address</label>
+                            <br>
+                            <input type="email" name="email" id="email" placeholder="example@gmail.com" required>
+                        </div>
+                    </td>
+                    <td>
+                        <div>
+                            <label for="Educaiton">Education Level</label>
+                            <br>
+                            <select name="Education" id="Education" required>
+                                <option value="Primary">Priamry</option>
+                                <option value="Secondary">Secondary</option>
+                                <option value="Tertiaryr">Tertiary</option>
+                                <option value="Other">Other</option>
+                            </select>
+                          </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div>
+                            <label for="Country">Country</label>
+                            <br>
+                            <input type="text" name="Country" id="Country" placeholder="Type in your country" required>
+                        </div>
+                    </td>
+                    <td>
+                        <div>
+                            <label for="State">State of Residence</label>
+                            <br>
+                            <input type="text" name="State" id="State" placeholder="Type in your State" required>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div>
+                            <label for="Status">Employment Status</label>
+                            <br>
+                            <input type="text" name="Status" id="Status" placeholder="Employment Status" required>
+                        </div>
+                    </td>
+                    <td>
+                        
+                        <div>
+                            <label for="Phone">Phone Number</label>
+                            <br>
+                            <input type="number" name="Phone" id="Phone" placeholder="Phone Number" required>
+                        </div>
+                    </td>
+                </tr>             
+                </table>
+            </fieldset>
+          </form>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
